@@ -1,0 +1,204 @@
+body {
+    height: 2000px;
+    font-size: px;
+    background-color: #f3f3f3;
+    margin-top: 65px;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0px;
+    right: 0px;
+    border-bottom: 2px;
+    border-bottom-color:rgb(223, 223, 223) ;
+    border-bottom-style: solid;
+}
+
+.left-section {
+    background-colr: grey;
+    display: flex;
+    width: 300px;
+    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.left-section img {
+    width: 50px;
+    border-radius: 31px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.middle-section {
+   margin-right: px;
+}
+
+.middle-section input {
+    width: 400px;
+    height: 35px;
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    padding-left: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search {
+    width: 100px;
+    height: 39px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+
+.right-section { 
+display: flex;
+justify-content: space-between;
+width: 500px;
+background-colr: grey;
+}
+
+.right-section ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.right-section a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px;
+}
+
+.right-section a:hover {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+    transition-duration: 0.5ms;
+    color: grey;
+}
+
+.container {
+    background-image: url=(../img4.jpg);
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px 8px;
+    border-width: 1px;
+    padding-left: 20px;
+    width: 300px;
+    background-color: rgb(239, 239, 239);
+    height:200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.inputs {
+    margin-bottom: 20px;
+
+}
+
+.username {
+    margin-bottom: 8px;
+}
+
+.username input {
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+
+}
+
+.password {
+    margin-top: 0px;
+    padding-right: 0px;
+}
+
+.password input {
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 23px;
+    width: 163px;
+}
+
+.Login-Forget {
+    display: flex;
+    grid-template-columns: 60px 1fr;
+    margin-top: 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.login {
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+.login:hover {
+    background-color: rgb(126, 235, 17);
+    color: white;
+}
+
+.Forget {
+    margin-right: 33px;
+}
+
+.Forget a {
+    text-decoration: none;
+    color: rgb(153, 16, 16);
+    font-size: 14px;
+}
+
+.Forget a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: 1ms;
+}
+
+.Sign {
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(49, 162, 49);
+    font-size: 14px;
+}
+
+.Sign:hover {
+    text-decoration: underline;
+    color: rgb(126, 235, 17);
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-title h1{
+    margin-top: 20px;
+}

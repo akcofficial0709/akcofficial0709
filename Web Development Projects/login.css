@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-image: url=(../img4.jpg);
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px 8px;
+    border-width: 1px;
+    box-shadow: 12px 10px 30px;
+    padding-left: 20px;
+    width: 300px;
+    background-color: rgb(239, 239, 239);
+}
+
+.inputs {
+    margin-bottom: 20px;
+
+}
+
+.username {
+    margin-bottom: 8px;
+}
+
+.username input {
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+
+}
+
+.password {
+    margin-top: 0px;
+    padding-right: 0px;
+}
+
+.password input {
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 23px;
+    width: 163px;
+}
+
+.Login-Forget {
+    display: flex;
+    grid-template-columns: 60px 1fr;
+    margin-top: 0px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.login {
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+.login:hover {
+    background-color: rgb(126, 235, 17);
+    color: white;
+}
+
+.Forget {
+    margin-right: 33px;
+}
+
+.Forget a {
+    text-decoration: none;
+    color: rgb(153, 16, 16);
+    font-size: 14px;
+}
+
+.Forget a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: 1ms;
+}
+
+.Sign {
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(49, 162, 49);
+    font-size: 14px;
+}
+
+.Sign:hover {
+    text-decoration: underline;
+    color: rgb(126, 235, 17);
+}
